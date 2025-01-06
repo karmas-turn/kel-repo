@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  
+}
+a{
+  text-decoration: none;
+}
+
+#offs{
+  background: -webkit-linear-gradient(right, #289c8f,#8ee5dc);
+}
+
+#navig{
+  box-shadow: 0 6px 7px -3px rgba(0,0,0,0.35);
+  background-color: #8ee5dc;
+}
+
+#cardi{
+  background: -webkit-radial-gradient(top,white,#289c8f,#8ee5dc,rgb(154,153,153));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.community , .content, .product, .deli{
+  backdrop-filter: blur(1000px);
+  box-shadow: 6px  6px 6px -3px rgba(0,0,0,0.35);
+}
+
+#head{
+  border: black;
+}
+#second{
+  background: -webkit-linear-gradient(100deg, #8ee5dc,#289c8f);
+  
+}
+#lane2{
+  background: -webkit-radial-gradient( left ,white 10%,#8ee5dc ,rgb(155,153,153));
+}
+
+#newthings{
+  background: -webkit-linear-gradient( left,white,rgb(155,153,153),#289c8f,#8ee5dc);
+  
+}
+
+.lastsection{
+  background: -webkit-linear-gradient(45deg,#289c8f,#8ee5dc,rgb(155, 153, 153));
+}
+#textarea{
+  height: 100%;
+}
