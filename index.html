@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title >Kelvin & Karma</title>
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
   <script src="js/bootstrap.js"></script>
   <link rel="stylesheet" href="index.css">
 </head>
@@ -15,7 +16,7 @@
         <a href="#" class="navbar-brand" id="label">Kelvin & Karma</a>
         
         <!--Button for toggling-->
-        <button type="button" class="navbar-toggler navbar-toggler-icon" data-bs-toggle="offcanvas" data-bs-target="#offs">
+        <button type="button" class="navbar-toggler navbar-toggler-icon" data-bs-toggle="offcanvas" data-bs-target="#offs" style="border: none;">
         </button>
 
         <!--Seen navigation-->
@@ -26,11 +27,11 @@
             </li>
 
             <li class="nav-item">
-              <a href="#" class="nav-link">About</a>
+              <a href="#second" class="nav-link">About</a>
             </li>
 
             <li class="nav-item">
-              <a href="#" class="nav-link">Blog</a>
+              <a href="#newthings" class="nav-link">Contact</a>
             </li>
           </ul>
         </div>
@@ -54,13 +55,13 @@
         </li>
 
         <li class="nav-item mb-2">
-          <a href="#" class="nav-link ">
+          <a href="#second" class="nav-link ">
             About
           </a>
         </li>
         <li class="nav-item mb-2">
-          <a href="#" class="nav-link ">
-            Blog
+          <a href="#newthings" class="nav-link ">
+            Contact
           </a>
         </li>
 
@@ -137,8 +138,8 @@
   </div>
 
   <div class="container-fluid p-4" id="second">
-    <h3>My Three Core Values</h3>
-    <h5>The building principles behind my work,creations and real life situations and exptancy</h5>
+    <h3 class="text-center">My Three Core Values</h3>
+    <h5 class="mb-4 text-center">The building principles behind my work,creations and real life situations and exptancy</h5>
 
     <div class="container-fluid row g-4">
       <div class="col ">
@@ -192,6 +193,76 @@
     </div>
   </div>
 
+
+  <div class="skills p-3">
+     <h4 class="text-center">Skills</h4>
+      <div class="col d-flex justify-content-between p-2 text-center">
+        <div class=" rounded-pill bg-secondary w-100 p-3 me-4 text-center text-white-50 ">
+          HTML
+        </div>
+        <div class=" rounded-pill bg-secondary p-3 w-100 me-4 text-center text-white-50 ">
+          CSS
+        </div>
+        <div class=" rounded-pill bg-secondary p-3 w-100  text-center text-white-50 ">
+          JAVASCRIPT
+        </div>
+        
+      </div>
+      <div class="d-flex justify-content-between p-2 text-center">
+        <div class=" rounded-pill bg-secondary p-3 w-100 me-4 text-center text-white-50 ">
+          PYTHON
+        </div>
+        <div class=" rounded-pill bg-secondary p-3 w-100 me-4 text-center text-white-50 ">
+          C++
+        </div>
+        <div class=" rounded-pill bg-secondary p-3  w-100 text-center text-white-50 ">
+          REACT
+        </div>
+      </div>
+    
+  </div>
+
+  <div class="service container-fluid p-2">
+    <h3 class="text-center">Services</h3>
+
+
+    <div class="row mb-3 p-3 g-4 justify-content-around text-center">
+      <div class="col-sm  col-lg-4">
+        <div class="card rounded-3 p-2 shadow">
+          <div class="card-body">
+            <div class="head text-center container p-3">
+              <i class="bi bi-laptop "></i>
+            </div>
+            <div class="body-head h4 text-center">
+              Web development
+            </div>
+            <div class="body-text">
+              Highly skilled in buillding user-centeric websites and web applications.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm col-lg-4">
+        <div class="card rounded-3 p-2 h-100 shadow">
+          <div class="card-body">
+            <div class="head text-center container p-3">
+              <i class="bi bi-megaphone "></i>
+            </div>
+            <div class="body-head h4 text-center">
+              Branding
+            </div>
+            <div class="body-text">
+              We give you a branding that is top notch.
+            </div>
+          </div>
+      </div>
+
+      
+    </div>
+
+    
+  </div>
+
   <div class="newthings p-5 row g-3" id="newthings">
     <div class="newd  h3 col">
       My Newsletter
@@ -205,7 +276,7 @@
     </div>
   </div>
 
-  <div class="lastsection p-5 ">
+  <div class="lastsection p-4  w-100 ">
     <div class="row g-4">
       <div class="col">
         <h4> Navigation</h4>
@@ -227,7 +298,7 @@
         <h4>Contact</h4>
         <ul class="list-unstyled">
           <li>Contact me on</li>
-          <li>+233598898098</li>
+          <li> <i class="bi bi-telephone"></i> +233598898098</li>
           <li>Follow me on my socials</li>
         </ul>
       </div>
@@ -235,6 +306,7 @@
       
     </div>
     <hr>
+    
     <div class="footer text-center">Designed by Kelvin &copy;<span id="date"></span></div>
   </div>
 

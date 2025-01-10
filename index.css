@@ -23,14 +23,14 @@ a{
 }
 
 #cardi{
-  background: -webkit-radial-gradient(top,white,#289c8f,#8ee5dc,rgb(154,153,153));
+  background: -webkit-radial-gradient(top,white,rgb(154,153,153));
   -webkit-background-clip: text;
   color: transparent;
 }
 
 .community , .content, .product, .deli{
   backdrop-filter: blur(1000px);
-  box-shadow: 6px  6px 6px -3px rgba(0,0,0,0.35);
+  box-shadow: 0  0 5px  rgba(0,0,0,0.35);
 }
 
 #head{
@@ -40,11 +40,11 @@ a{
   background: -webkit-linear-gradient(100deg, #8ee5dc,#289c8f);
   
 }
-#lane2{
+#lane2, .service{
   background: -webkit-radial-gradient( left ,white 10%,#8ee5dc ,rgb(155,153,153));
 }
 
-#newthings{
+#newthings {
   background: -webkit-linear-gradient( left,white,rgb(155,153,153),#289c8f,#8ee5dc);
   
 }
@@ -54,4 +54,20 @@ a{
 }
 #textarea{
   height: 100%;
+}
+
+.head{
+  background-color: grey;
+  width: 100px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+
+.skills,.card {
+  background: -webkit-linear-gradient(45deg, #8ee5dc,#289c8f,white,rgb(155,153,153));
+}
+
+.rounded-pill, .card{
+  box-shadow: 0  0 5px  rgba(0,0,0,0.35);
 }
