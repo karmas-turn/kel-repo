@@ -73,7 +73,7 @@ a{
 }
 
 
-#second .row .col, .skills .col, .service .row div{
+#second .row .col, .skills .col, .service div{
   
   animation: appear 5s  linear ;
   animation-timeline: view();
